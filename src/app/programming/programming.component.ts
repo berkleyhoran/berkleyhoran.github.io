@@ -49,8 +49,24 @@ export class ProgrammingComponent implements OnInit {
       "desc": "Javascript",
       "img": "../../assets/spriteviewer.png",
       "link": "http://calebclayson.me/mtech/pokemonList/"
+    },
+    {
+      "id" : 8,
+      "name" : "Machine Learning",
+      "desc": "Java in Processing",
+      "img": "../../assets/ml.png",
+      "link": "http://berkleyhoran.me/machineLearning/"
+    },
+    {
+      "id" : 9,
+      "name" : "Perlin Noise",
+      "desc": "Java in Processing",
+      "img": "../../assets/perlin.png",
+      "link": "http://berkleyhoran.me/MTECH/processing/"
     }
   ]
+
+  
   
 
   constructor() {

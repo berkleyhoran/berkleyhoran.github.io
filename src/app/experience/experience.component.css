@@ -13,17 +13,17 @@
     
 }
 .contentdiv{
-    height:900px;
     width:70%;
     background-color:#303030;
     padding-left:15%;
     padding-right:15%;
     padding-top: 2%;
+    padding-bottom: 2%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.ptext{
-    font-size:15px;
+.experience{
+    font-size:20px;
     margin:5px;
     padding:0px;
     font-family: 'Montserrat', sans-serif;
@@ -36,7 +36,8 @@
     display:flex;
     justify-content: center;
     align-items: space-between;
-    flex-flow: row;
+    flex-flow: column;
+    border-radius:5px;
 
 }
 
@@ -67,4 +68,11 @@
     margin:5px;
     margin-right:25px;
     margin-left:25px;
+}
+
+.heading{
+    color: #4C9CF3;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
 }
